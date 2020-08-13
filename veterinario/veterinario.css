@@ -22,7 +22,8 @@ header img {
 }
 
 nav{
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
   height: 50px;
   background-color: #1B4A48;
   border-bottom-left-radius: 10px;
@@ -35,6 +36,8 @@ padding-top: 10px;
 }
 
 nav ul li{
+  display: flex;
+  justify-content: space-around;
   display: inline;
   color: #f1f3f3;
   padding: 10px 30px 10px 30px;
@@ -91,6 +94,7 @@ aside header {
   height: 30px;
 }
 aside from{
+  column;
   margin:18px;
 }
 footer{

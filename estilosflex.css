@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+}
+nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  background-color:#FEBD17;
+  height: 50px;
+}
+nav div{
+  width: 150px;
+  background-color:#FEBD17;
+
+}
+@media only scren and (max-width:768px){
+#logo{
+  color: red;
+}
+#ma{
+  display: inline;
+}
+#ml{
+  display: none;
+}
+}
