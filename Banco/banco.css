@@ -100,11 +100,13 @@ article button{
 	border-radius: 15px 15px 0px 0px;
 }
 
-.aparte1{
-	background-color: #232323;
+.aparte2{
+   background-color:#000000;
+   	margin-bottom: 15px;
+      margin:5px;
 	height: 241px;
 	width: 240px;
-	display: block;
+
 }
 
 .titulo{

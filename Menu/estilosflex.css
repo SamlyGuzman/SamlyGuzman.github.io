@@ -1,0 +1,45 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+nav{
+  display: flex;
+  height: 50px;
+  align-items:center;
+  justify-content: space-between;
+  background-color:#FEBD17;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav div{
+  color:  red;
+}
+  nav img{
+  background-image: url( "samly.jpg");
+  width: 4%;
+  border-bottom-left-radius: 10px;
+  border-radius: 10px;
+
+}
+@media only screen and (max-width:425px) {
+  nav {
+    background-color: #800080
+  }
+
+   div{
+      background-image: url( "samly.jpg");
+      color: white;
+  }
+
+  nav img{
+  background-image: url( "samly.jpg");
+  width: 5%;
+  border-bottom-left-radius: 15px;
+  border-radius: 15px;
+}
+
+
+  body{
+   background-color: #ffffff;
+
+ }
